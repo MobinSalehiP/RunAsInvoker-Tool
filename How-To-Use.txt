@@ -1,0 +1,45 @@
+1-Open cmd.exe
+
+2-type set __compat_layer=runasinvoker
+
+3-type start "Application You Want To Bypass it "
+
+# 🚀 How to Use (RunAsInvoker Bypass)
+
+This guide shows how to run any Windows application **without triggering the UAC admin prompt**, using the built-in `RunAsInvoker` compatibility layer.
+
+---
+
+## ✅ Step 1 — Open CMD
+Press: Win+R
+Type:cmd
+
+Then press **Enter**.
+
+---
+
+## ✅ Step 2 — Enable RunAsInvoker
+In CMD, enter:set __compat_layer=runasinvoker
+
+
+---
+
+## ✅ Step 3 — Start the Application
+Run the program you want by typing:start "Application You Want To Bypass" path\to\your.exe
+
+### Example:start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+
+---
+
+## ℹ️ Note
+This method **does not elevate privileges**.  
+It only forces the app to run **without requesting UAC**, if the app supports non-admin execution.
+
+---
+
+## 🎉 Done!
+Your app will now run using **RunAsInvoker** mode.
+
+
+
